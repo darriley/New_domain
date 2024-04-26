@@ -1,0 +1,110 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #36D1DC, #5B86E5);
+}
+.CenterImage, .rightImage {
+  display: inline-block;
+  vertical-align: top; /* Align images vertically at the top */
+}
+
+.CenterImage {
+  display: inline-block; /* Change from block to inline-block */
+  margin-left: 30px;
+  margin-top: 10px; /* Add margin-top to align with the other image */
+}
+
+.rightImage {
+  display: inline-block; /* Change from right to inline-block */
+  margin-left: 30px;
+  margin-top:30px;/* Adjust margin-left to create space between images */
+}
+
+.profile{display: flex;justify-content: center;}
+
+.profile img{width:100px;
+            }
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background: linear-gradient(to right, #363636, #787878);
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+  margin-right: 10px; /* Adjusted for spacing */
+  margin-bottom: 5px; /* Adjusted for spacing */
+}
+
+button:last-child {
+  margin-right: 0; /* Remove margin for the last button */
+}
+
+button:hover {
+  background: linear-gradient(to right, #363636, #787878);
+}
+
+#expense-list {
+  margin-bottom: 20px;
+}
+
+.expense-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+#budget-result {
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+li:after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 10px;
+}
